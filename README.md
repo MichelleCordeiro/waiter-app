@@ -4,9 +4,16 @@
 </p>
 
 <!--About session-->
-<h1 align="center">Waiter App </h1>
+<div align="center">
+  <h1 >Waiter App </h1>
 
-Aplicação web/mobile para uso em estabelecimentos onde há a necessidade de anotar pedidos, desenvolvida ao longo da semana nas lives da JStack, ministradas pelo dev [Mateus Silva](https://github.com/maateusilva).
+  Aplicação web/mobile para uso em estabelecimentos onde há a necessidade de anotar pedidos, desenvolvida ao longo da semana nas lives da JStack, ministradas pelo dev [Mateus Silva](https://github.com/maateusilva).
+  <p>
+    <img src="https://i.postimg.cc/YC54LjTd/kitchen-app-1.png" alt="diagrama" width="500">
+    <img src="https://i.postimg.cc/zvG3YhRG/kitchen-app-2.png" alt="diagrama" width="500">
+    <img src="https://i.postimg.cc/kGYGJ5xF/waiter-app.png" alt="diagrama" width="500">
+  </p>
+</div>
 <br>
 
 <!-- Ícones das linguagens -->
@@ -41,7 +48,7 @@ Aplicação web/mobile para uso em estabelecimentos onde há a necessidade de an
 <h2> 🎯 Aprendizado: </h2>
 
 - node js com express
-- mongo db com moogose
+- mongo db (docker) com moogose
 - typeScript
 - react com vite
 - CSS-in-JS com styled components
@@ -56,6 +63,6 @@ Aplicação web/mobile para uso em estabelecimentos onde há a necessidade de an
 <br>
 <h2> 🔮 Implementações futuras: </h2>
 
-- [ ] 
-- [ ] 
+- [ ] react-beautiful-dnd (drag and drop for lists)
+- [ ] fechar modal clicando nele
 
