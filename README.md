@@ -9,9 +9,11 @@
 
   Aplicação web/mobile para uso em estabelecimentos onde há a necessidade de anotar pedidos, desenvolvida ao longo da semana nas lives da JStack, ministradas pelo dev [Mateus Silva](https://github.com/maateusilva).
   <p>
-    <img src="https://i.postimg.cc/YC54LjTd/kitchen-app-1.png" alt="diagrama" width="500">
-    <img src="https://i.postimg.cc/zvG3YhRG/kitchen-app-2.png" alt="diagrama" width="500">
-    <img src="https://i.postimg.cc/kGYGJ5xF/waiter-app.png" alt="diagrama" width="500">
+    <img src="https://i.postimg.cc/YC54LjTd/kitchen-app-1.png" alt="diagrama" width="550">
+    <BR>
+    <img src="https://i.postimg.cc/zvG3YhRG/kitchen-app-2.png" alt="diagrama" width="550">
+    <BR>
+    <img src="https://i.postimg.cc/kGYGJ5xF/waiter-app.png" alt="diagrama" width="550">
   </p>
 </div>
 <br>
@@ -21,25 +23,27 @@
 <p align="left">
 <h4>Server:</h4>
   <code><img height="25" src="https://www.soat.fr/assets/images/formation/NodeJS.png"></code>
-  <code><img height="25" src="https://i.postimg.cc/L8Nv7gmW/express.png"></code>
+  <code><img height="23" src="https://i.postimg.cc/L8Nv7gmW/express.png"></code>
   <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
 <code><img height="27" src="https://i.postimg.cc/W453gXp3/docker-logo-icon.png"></code>
-<code><img height="20" src="https://i.postimg.cc/gJBxF415/mongodb-1.png"></code>
+<code><img height="23" src="https://i.postimg.cc/gJBxF415/mongodb-1.png"></code>
 
 <BR>
 <BR>
 <h4>Web:</h4>
   <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
   <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-  <code><img height="28" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+  <code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
   <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
 <code><img height="22" src="https://i.postimg.cc/tgDYzyG8/logo-vite.png"></code>
 
 <BR>
 <BR>
 <h4>Mobile:</h4>
-  <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react-native/react-native.png"></code>
-
+  <code><img height="23" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react-native/react-native.png"></code>
+  <code><img height="22" src="https://i.postimg.cc/TYBx6CQn/logo-expo.png"></code>
+  <code><img height="22" src="https://i.postimg.cc/V6vWMpby/Android-Studio-Icon-2021.png"></code>
+  <code><img height="23" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png"></code>
 
 </p><br>
 
@@ -52,6 +56,7 @@
 - typeScript
 - react com vite
 - CSS-in-JS com styled components
+- react native com expo
 
 
 <br>
