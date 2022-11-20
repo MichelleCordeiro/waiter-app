@@ -6,34 +6,52 @@ import { Menu } from '../components/Menu';
 import { Button } from '../components/Button';
 import { TableModal } from '../components/TableModal';
 import { useState } from 'react';
+import { Cart } from '../components/Cart';
+import { CartItem } from '../types/CartItem';
+import { Product } from '../types/Product';
 
 export function Main() {
   const [isTableModalVisible, setIsTableModalVisible] = useState(false);
-  const [selectTable, setSelectTable] = useState('');
+  const [selectedTable, setSelectedTable] = useState('');
+  const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   function handleSaveTable(table: string) {
-    setSelectTable(table);
+    setSelectedTable(table);
+  }
+
+  function handCancelOrder() {
+    setSelectedTable('');
+  }
+
+  function handleAddToCart(product: Product) {
+    if (!selectedTable) {
+      setIsTableModalVisible(true);
+    }
+
+    alert(product.name);
   }
 
   return (
     <>
       <Container>
-        <Header />
+        <Header selectTable={selectedTable} onCancelOrder={handCancelOrder} />
         <CategoriesContainer>
           <Categories />
         </CategoriesContainer>
         <MenuContainer>
-          <Menu />
+          <Menu onAddToCart={handleAddToCart} />
         </MenuContainer>
       </Container>
 
       <Footer>
         <FooterContainer>
-          {!selectTable && (
+          {!selectedTable && (
             <Button onPress={() => setIsTableModalVisible(true)}>
               Novo Pedido
             </Button>
           )}
+
+          {selectedTable && <Cart cartItems={cartItems} />}
         </FooterContainer>
       </Footer>
 
@@ -49,4 +67,4 @@ export function Main() {
 
 
 
-// video 3 parado no tempo 1:55:15 youtube
+// video 4 parado no tempo 1:53:50 youtube
